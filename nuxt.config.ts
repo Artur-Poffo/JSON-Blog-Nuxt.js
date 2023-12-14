@@ -2,9 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  modules: [
+    'nuxt-primevue'
+  ],
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL || 'http://localhost:3333',
+      baseURL: 'http://localhost:3333',
     },
   },
   postcss: {

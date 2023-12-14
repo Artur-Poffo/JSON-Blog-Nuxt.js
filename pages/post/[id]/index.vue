@@ -24,9 +24,9 @@
 </template>
 
 <script setup lang="ts">
-import { type IPost } from '@/interfaces/IPost';
 import TagComponent from '@/components/UI/TagComponent.vue';
-import { micromark } from 'micromark'
+import { type IPost } from '@/interfaces/IPost';
+import { micromark } from 'micromark';
 
 const route = useRoute()
 const router = useRouter()
@@ -50,6 +50,11 @@ getPostDetails()
     if (!postData) {
       router.push('/')
     }
+
+    useSeoMeta({
+      title: `JSON Blog | ${postData.title}`,
+      description: () => `${postData.description}`,
+    })
 
     post.value = postData
     formattedContent.value = micromark(post.value.content)

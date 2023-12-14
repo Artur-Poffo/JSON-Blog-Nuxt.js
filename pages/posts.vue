@@ -20,6 +20,11 @@ import PostResumeCard from '~/components/UI/PostResumeCard.vue';
 import { type IPost } from '~/interfaces/IPost';
 import { useMyFetch } from '../composables/useMyFetch';
 
+useSeoMeta({
+  title: "JSON Blog | Posts",
+  description: "List of posts on JSON Blog",
+})
+
 const posts = ref<IPost[]>([])
 
 async function fetchRecentPosts() {
