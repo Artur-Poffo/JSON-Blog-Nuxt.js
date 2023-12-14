@@ -2,61 +2,42 @@
   "posts": [
     {
       "id": "1",
-      "title": "First Post",
-      "description": "This is the first post",
-      "content": "#Hello\n>**How are you?**",
+      "title": "Iniciando no Desenvolvimento Web com Nuxt.js",
+      "description": "Explorando Nuxt.js: Um guia prático para a configuração inicial, estrutura de projeto organizada e funcionalidades poderosas. Descubra roteamento dinâmico, SSR, geração estática e ampliação de funcionalidades com plugins. Uma jornada simples e informativa no mundo do desenvolvimento web com Nuxt.js",
+      "content": "Olá, pessoal! Se você é um entusiasta do desenvolvimento web ou um desenvolvedor em busca de novas ferramentas poderosas, este post é para você. Hoje, vou compartilhar minha jornada emocionante ao aprender Nuxt.js, uma estrutura Vue.js poderosa e versátil. Vamos embarcar nessa jornada juntos!\n\n### **O Que é Nuxt.js?**\n\nAntes de mergulharmos profundamente, vamos dar uma olhada rápida no que é o Nuxt.js. Em poucas palavras, o Nuxt.js é um framework para Vue.js que simplifica o desenvolvimento de aplicativos web modernos e escaláveis. Ele adiciona algumas convenções inteligentes ao Vue.js e traz funcionalidades poderosas, como renderização do lado do servidor (SSR) e geração estática.\n\n### **Configuração Inicial: Instalando Nuxt.js**\n\nO primeiro passo da minha jornada foi configurar um novo projeto Nuxt.js. A instalação é surpreendentemente simples, graças ao Nuxt CLI. Basta executar alguns comandos, e você terá um projeto Nuxt.js pronto para começar.\n\n```bash\n# Instale o Nuxt CLI globalmente\n$ npm install -g create-nuxt-app\n\n# Crie um novo projeto Nuxt.js\n$ create-nuxt-app nome-do-seu-projeto\n```\n\nA simplicidade dessa configuração inicial me deixou animado para explorar mais a fundo.\n\n### **Estrutura do Projeto: Uma Visão Geral**\n\nUma das coisas que adorei no Nuxt.js é a estrutura de diretórios organizada. Cada pasta tem seu propósito específico, facilitando a navegação e a compreensão do projeto. Os diretórios `pages`, `components` e `layouts` se destacaram como componentes-chave, tornando a arquitetura do projeto limpa e modular.\n\n### **Roteamento Dinâmico e Páginas Dinâmicas**\n\nNuxt.js simplifica muito a criação de rotas dinâmicas. A pasta `pages` não é apenas uma coleção de componentes, mas também define automaticamente as rotas do aplicativo. Além disso, a capacidade de criar páginas dinâmicas usando parâmetros facilita a construção de aplicativos altamente interativos.\n\n### **Renderização do Lado do Servidor (SSR) e Geração Estática**\n\nUma das características mais poderosas do Nuxt.js é a capacidade de escolher entre a renderização do lado do servidor (SSR) e a geração estática, dependendo das necessidades do projeto. Isso não apenas melhora o desempenho, mas também a experiência do usuário.\n\n### **Plugins e Módulos: Ampliando Funcionalidades**\n\nOutro ponto interessante que descobri foram os plugins e módulos do Nuxt.js. Eles permitem estender facilmente a funcionalidade do aplicativo, integrando bibliotecas de terceiros e configurando recursos adicionais.\n\n### **Conclusão: Uma Jornada de Aprendizado Constante**\n\nMinha jornada de aprendizado com Nuxt.js tem sido incrivelmente estimulante. A estrutura elegante, a simplicidade na configuração e as poderosas funcionalidades adicionadas ao Vue.js tornam o Nuxt.js uma escolha excepcional para o desenvolvimento web moderno.\n\nSe você está pensando em explorar novas ferramentas no mundo do desenvolvimento web, eu definitivamente recomendo dar uma chance ao Nuxt.js. Espero que minha experiência inspire você a embarcar nessa jornada de aprendizado e descoberta.\n\nCompartilhe nos comentários suas próprias experiências com Nuxt.js ou suas perguntas sobre esta incrível ferramenta. Vamos aprender juntos e construir a próxima geração de aplicativos web extraordinários! 😊✨\n\nAté a próxima!\n\n**Gerado por IA apenas para teste, não leve o conteúdo deste post a sério**",
       "image_url": "https://i.ytimg.com/vi/PkdY8vfNxQs/maxresdefault.jpg",
       "created_at": "2023-04-12",
       "tags": [
-        "a"
+        "Nuxt.js",
+        "Vue.js"
       ],
       "author": "Artur Poffo"
     },
     {
       "id": "2",
-      "title": "Second Post",
-      "description": "This is the second post",
-      "content": "#Hello\n>**How are you?**",
+      "title": "Navegando do React ao Vue.js: Uma Transição Suave e Empolgante",
+      "description": "Veja algumas diferenças entre essas duas libs incríveis",
+      "content": "**Olá, comunidade de desenvolvedores! Se você está mergulhado no universo do React e se perguntando sobre as maravilhas do Vue.js, você veio ao lugar certo. Neste post, vou compartilhar minha jornada ao começar no Vue.js vindo do React, destacando as nuances, semelhanças e o que torna cada um especial.\n\n### **De React para Vue.js: Uma Mudança Refrescante**\n\nApós passar um tempo significativo trabalhando com React, decidi explorar o Vue.js. A primeira coisa que me chamou a atenção foi a abordagem mais flexível e menos cerimonial do Vue.js. A transição foi surpreendentemente suave, e logo percebi que ambas as bibliotecas compartilham conceitos fundamentais, mas com suas próprias peculiaridades.\n\n### **Sintaxe Clara e Simples do Vue.js**\n\nUma das diferenças notáveis é a sintaxe clara e simples do Vue.js. A criação de componentes é intuitiva, facilitando a compreensão e a manutenção do código. A diretiva `v-if`, por exemplo, simplifica o controle de renderização condicional, enquanto as propriedades computadas oferecem uma maneira elegante de manipular dados.\n\n### **Reatividade e Sistema de Estado do Vue.js vs. React**\n\nAmbas as bibliotecas adotam um modelo de reatividade, mas o Vue.js tem um sistema de estado mais granular e direto. Com a diretiva `v-model` e a fácil manipulação de estados, a gestão de dados no Vue.js se destaca pela simplicidade e eficácia.\n\n### **Componentes em Vue.js e React: Semelhanças e Diferenças**\n\nComponentes são o coração de ambas as bibliotecas, mas o Vue.js introduz uma abordagem mais coesa. A reutilização de componentes é natural, e a clareza na definição de propriedades e eventos torna a construção de interfaces mais fluida.\n\n### **Ecossistema e Comunidade Vibrante**\n\nAmbos Vue.js e React têm comunidades ativas e ecossistemas ricos. A escolha entre eles muitas vezes se resume a preferências pessoais e requisitos específicos do projeto. Vue.js é conhecido por sua abordagem menos opinativa, enquanto React oferece mais flexibilidade em termos de escolhas de ferramentas e escalabilidade.\n\n### **Conclusão: A Escolha é Sua!**\n\nMinha jornada de React para Vue.js foi empolgante e educativa. Ambas as bibliotecas têm suas forças e aplicações ideais. Se você está considerando dar uma chance ao Vue.js vindo do React, aconselho a experimentar e explorar por si mesmo. A escolha entre eles muitas vezes se resume ao contexto do projeto e à preferência pessoal. \n\nCompartilhe nos comentários suas próprias experiências com ambas as bibliotecas ou faça perguntas. Vamos continuar aprendendo e construindo juntos!\n\nAté logo!\n\n**Gerado por IA apenas para teste, não leve o conteúdo deste post a sério**",
       "image_url": "https://belenos.me/media/2021-05-vuejs.webp",
       "created_at": "2023-07-02",
       "tags": [
-        "a"
+        "Nuxt.js",
+        "Vue.js",
+        "React.js"
       ],
       "author": "Artur Poffo"
     },
     {
       "id": "3",
-      "title": "Third Post",
-      "description": "This is the third post",
-      "content": "#Hello\n>**How are you?**",
+      "title": "De Vue.js à Vercel: Um Guia Simples para Deploy de Sites Vue.js",
+      "description": "Guia prático para o deploy de sites Vue.js na Vercel. Descubra por que a Vercel é uma escolha eficiente, siga os passos desde a preparação do projeto até o deploy usando a CLI. Saiba configurar opções adicionais e compartilhe suas experiências nos comentários. Um caminho simples para levar seu projeto Vue.js online",
+      "content": "**Olá, pessoal! Se você está empolgado com o desenvolvimento em Vue.js e deseja levar seu site ao próximo nível com um deploy suave, este guia é para você. Hoje, vou compartilhar um passo a passo simples sobre como fazer o deploy de um site Vue.js na Vercel, uma plataforma de hospedagem moderna e eficiente.\n\n### **Por que Vercel?**\n\nA Vercel se destaca por sua simplicidade e integração contínua com repositórios Git. Além disso, oferece uma experiência otimizada para sites estáticos e frameworks como Vue.js. Vamos começar!\n\n### **Passo 1: Preparando o Seu Projeto Vue.js**\n\nAntes de começarmos, certifique-se de que seu projeto Vue.js está pronto para o deploy. Execute a construção do seu projeto para garantir que todos os arquivos necessários estejam prontos para a produção.\n\n```bash\n# Execute o comando de construção\n$ npm run build\n```\n\n### **Passo 2: Criando uma Conta na Vercel**\n\nSe você ainda não tem uma conta na Vercel, é hora de criar uma. Acesse [vercel.com](https://vercel.com/) e siga as instruções para se inscrever.\n\n### **Passo 3: Instalando o Vercel CLI**\n\nA Vercel oferece uma CLI que facilita o deploy de projetos diretamente do terminal. Instale a CLI globalmente usando o seguinte comando:\n\n```bash\n# Instale o Vercel CLI globalmente\n$ npm install -g vercel\n```\n\n### **Passo 4: Fazendo o Deploy do Seu Projeto**\n\nCom o Vercel CLI instalado, navegue até o diretório do seu projeto Vue.js e execute o seguinte comando:\n\n```bash\n# Faça o deploy do seu projeto\n$ vercel\n```\n\nA CLI solicitará algumas informações durante o processo, como o diretório de construção (normalmente `dist` para projetos Vue.js).\n\n### **Passo 5: Configurando as Opções de Deploy (Opcional)**\n\nVocê pode personalizar várias opções de deploy durante o processo, como alias de domínio, variáveis de ambiente, entre outras. Siga as instruções da CLI para configurar conforme necessário.\n\n### **Conclusão: Seu Site Vue.js Agora Está ao Vivo!**\n\nApós concluir o processo de deploy, sua aplicação Vue.js estará ao vivo na Vercel. A Vercel fornece URLs únicas para cada deploy, tornando fácil compartilhar seu trabalho com o mundo.\n\nEspero que este guia tenha sido útil para você. Compartilhe nos comentários suas experiências com o deploy de projetos Vue.js na Vercel ou faça perguntas. Vamos continuar construindo e compartilhando conhecimento!\n\nAté a próxima!\n\n**Gerado por IA apenas para teste, não leve o conteúdo deste post a sério**",
       "image_url": "https://assets.vercel.com/image/upload/front/vercel/solutions-vue-2.png",
       "created_at": "2023-12-02",
       "tags": [
-        "a"
-      ],
-      "author": "Artur Poffo"
-    },
-    {
-      "id": "4",
-      "title": "fourth Post",
-      "description": "This is the fourth post",
-      "content": "#Hello\n>**How are you?**",
-      "image_url": "https://belenos.me/media/2021-05-vuejs.webp",
-      "created_at": "2023-12-07",
-      "tags": [
-        "a"
-      ],
-      "author": "Artur Poffo"
-    },
-    {
-      "id": "5",
-      "title": "fifth Post",
-      "description": "This is the fifth post",
-      "content": "#Hello\n>**How are you?**",
-      "image_url": "https://belenos.me/media/2021-05-vuejs.webp",
-      "created_at": "2023-12-09",
-      "tags": [
-        "a"
+        "Deploy",
+        "Vue",
+        "Vercel"
       ],
       "author": "Artur Poffo"
     }

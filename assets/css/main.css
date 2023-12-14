@@ -4,6 +4,6 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
+    @apply scroll-smooth scrollbar-thin scrollbar-thumb-sky-400 scrollbar-track-gray-900
   }
 }

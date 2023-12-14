@@ -6,14 +6,15 @@
 
 ## Concepts to study during development
 
-- [] File system routing and dynamic routing
-- [] Data fetching and why Axios is not supported in Nuxt.js?
-- [] `SSR` and `SSG` with Nuxt.js, how it works?
+- [x] File system routing and dynamic routing
+- [x] Data fetching and why Axios is not supported in Nuxt.js?
+- [ ] `SSR` and `SSG` with Nuxt.js, how it works?
 - [x] More about `slot` Vue functionality
 - [x] json-server with Nuxt.js
-- [] Nuxt Content for render markdown content and study other use cases of this lib also
+- [x] Nuxt Content for render markdown content and study other use cases of this lib also
 - [x] Environment variables
-- [] More about nuxt.config.ts file and your options
-- [] Basic of page transitions with default functionality of Nuxt.js
-- [] SEO with Nuxt.js
+- [ ] More about nuxt.config.ts file and your options
+- [ ] Basic of page transitions with default functionality of Nuxt.js
+- [ ] SEO with Nuxt.js
+- [ ] Basic use of PrimeVue
 - [x] Tailwind with Nuxt.js

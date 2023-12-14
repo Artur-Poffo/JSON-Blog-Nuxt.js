@@ -9,7 +9,7 @@
       </header>
 
       <main class="mt-3">
-        <p>
+        <p class="line-clamp-2">
           {{ props.post.description }}
         </p>
       </main>

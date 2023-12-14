@@ -1,7 +1,7 @@
 <template>
   <Navbar />
 
-  <main class="min-h-screen bg-gray-300 text-zinc-800">
+  <main class="min-h-screen bg-gray-300 text-zinc-800 scrollbar-thin scrollbar-thumb-sky-400 scrollbar-track-gray-900">
     <NuxtPage />
   </main>
 </template>
