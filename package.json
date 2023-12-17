@@ -14,6 +14,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.2",
+    "nuxt-icon": "^0.6.7",
     "nuxt-primevue": "^0.2.2",
     "postcss": "^8.4.32",
     "tailwind-scrollbar": "^3.0.5",
@@ -22,8 +23,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.18",
-    "@nuxt/content": "^2.9.0",
     "concurrently": "^8.2.2",
     "json-server": "^0.17.4",
     "micromark": "^4.0.0"
